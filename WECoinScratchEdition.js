@@ -46,8 +46,8 @@ class ScratchMath {
 
 	getInfo() {
 	    return {
-	    	id: "math",
-	    	name: "JS",
+	    	id: "WECTE",
+	    	name: "WE Coin Tools Extension",
 	    	blocks: [
 		auto_block('reporter', "Fetch", "Fetch [a]"),
 	        {
