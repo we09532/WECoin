@@ -50,6 +50,7 @@ class ScratchMath {
 	    	name: "WE Coin Tools Extension",
 	    	blocks: [
 		auto_block('reporter', "Fetch", "Fetch [a]"),
+		auto_block('boolean', "test", "test [a]"),
 	        {
 	        	blockType: 'command',
 	        	opcode: 'EvalCmd',
@@ -93,6 +94,14 @@ eval(a)
         .then(y => {
             let ans = y;
             return ans;
+        });
+	test({a}) {
+    let file = a;
+    return fetch(file)
+        .then(x => x.text())
+        .then(y => {
+            let ans = y;
+            return "true";
         });
 }
 	
