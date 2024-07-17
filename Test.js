@@ -32,7 +32,6 @@ class ScratchMath {
             name: "WE Coin Tools Extension",
             blocks: [
                 auto_block('reporter', "Fetch", "Fetch [a]"),
-                auto_block('boolean', "test", "test [a]"),
                 {
                     blockType: 'command',
                     opcode: 'EvalCmd',
@@ -41,10 +40,14 @@ class ScratchMath {
                         a: {
                             type: "string",
                             defaultValue: " "
+                        },
+                        b: {
+                            type: "string",
+                            defaultValue: " "
                         }
                     }
                 },
-
+                auto_block('boolean', "isWE", "Is WE Coin?"),
                 '---',
             ]
         };
@@ -68,14 +71,8 @@ class ScratchMath {
             });
     }
 
-    test({ a }) {
-        let file = a;
-        return fetch(file)
-            .then(x => x.text())
-            .then(y => {
-                let ans = y;
-                return "true";
-            });
+    isWE() {
+        return true;
     }
 }
 
