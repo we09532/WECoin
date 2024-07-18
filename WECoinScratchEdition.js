@@ -46,14 +46,14 @@ class ScratchMath {
 
 	getInfo() {
 	    return {
-	    	id: "WECTE",
-	    	name: "WE Coin Tools Extension",
+	    	id: "math",
+	    	name: "JS",
 	    	blocks: [
 		auto_block('reporter', "Fetch", "Fetch [a]"),
 	        {
 	        	blockType: 'command',
 	        	opcode: 'EvalCmd',
-	        	text: 'Run [a] in Javascript',
+	        	text: 'Run [a]',
 	        	arguments: {
 	        		a: {
 	        			type: "string",
