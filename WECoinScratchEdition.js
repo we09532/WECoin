@@ -49,11 +49,11 @@ class ScratchMath {
 	    	id: "math",
 	    	name: "JS",
 	    	blocks: [
-		auto_block('reporter', "Fetch", "Fetch [a]"),
+		auto_block('reporter', "Fetch", "🌐 Fetch [a]"),
 	        {
 	        	blockType: 'command',
 	        	opcode: 'EvalCmd',
-	        	text: 'Run [a]',
+	        	text: '💻 Run [a]',
 	        	arguments: {
 	        		a: {
 	        			type: "string",
