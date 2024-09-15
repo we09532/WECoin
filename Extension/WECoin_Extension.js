@@ -88,6 +88,17 @@ class CombinedExtension {
                             defaultValue: 'we09532'
                         }
                     }
+                },
+                {
+                    opcode: 'getUserRequests',
+                    blockType: Scratch.BlockType.REPORTER,
+                    text: 'Get User Requests for [User]',
+                    arguments: {
+                        User: {
+                            type: Scratch.ArgumentType.STRING,
+                            defaultValue: 'we09532'
+                        }
+                    }
                 }
             ]
         };
@@ -180,6 +191,13 @@ class CombinedExtension {
 
     async openOfficialWECoinAPI() {
         window.open('https://wecoin.vercel.app/api', '_blank'); // Replace ' ' with the actual API URL
+    }
+
+    async getUserRequests(args) {
+        const url = `https://snapextensions.uni-goettingen.de/handleTextfile.php?type=read&filename=./textfiles/GandiBlockbit:Requests:${args.User}`;
+        return Scratch.fetch(url)
+            .then((r) => r.text())
+            .catch(() => "");
     }
 }
 
