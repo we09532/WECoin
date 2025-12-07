@@ -34,3 +34,9 @@ Contact
 Notes
  - WECoin has no real monetary value on or off Scratch.
  - This repository strives to respect original Scratch authors' rights. If any content needs a different license or removal, contact the owner.
+
+Server Status / Notice
+ - The Snap!/extension servers that this project originally relied on have been deactivated.
+ - The project was switched to use custom servers maintained by the author, but those custom servers have since expired.
+ - Because the required servers are no longer available and there is limited demand, this project is currently not planned to be updated or fixed.
+ - If there is significant community interest or many requests to revive the project, the owner (`we09532`) may consider restoring services or updating the project.
