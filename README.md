@@ -3,7 +3,7 @@
 WECoin is a points/currency system inspired by and partially based on the Scratch project "BlockBit" by yippymishy (https://scratch.mit.edu/projects/669020072/).
 
 Summary
- - **What:** WECoin is a virtual currency/points system with no real-world value. It is intended for use in Scratch-like environments (off-Scratch on SnailNet and on the web) to create shops, in-game economies, prize systems, and other use cases where a project-local currency is useful.
+ - **What:** WECoin is a virtual currency/points system with no real-world value. It is intended for use in Scratch-like environments (off-Scratch on Snail IDE and on the web) to create shops, in-game economies, prize systems, and other use cases where a project-local currency is useful.
  - **Who created it:** `we09532`.
  - **Inspiration / Attribution:** Some code and assets in this repository were inspired by or adapted from BlockBit by yippymishy (https://scratch.mit.edu/users/yippymishy/). Those original pieces remain the copyright of their original author(s) and are used here with attribution.
 
@@ -11,7 +11,7 @@ Description
 WECoin is based on the same idea as BlockBit: a simple, flexible currency/points system for projects. Like BlockBit, WECoin is intended for play and educational uses only — it has no monetary value on or off Scratch. You can use WECoin to build shops (projects where users can "sell" or trade items for WECoin), reward players, run contests, or add economy mechanics to games.
 
 Usage
-- Use the code and assets in this repo to run WECoin in your projects (SnailNet / web environments).
+- Use the code and assets in this repo to run WECoin in your projects (Snail IDE / web environments).
 - Respect the original authors: if you reuse assets or code adapted from the BlockBit project by yippymishy, include proper attribution in your own projects.
 
 License & Attribution
